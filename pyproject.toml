@@ -20,23 +20,23 @@ classifiers = [
     'Operating System :: OS Independent',
 ]
 dependencies = [
-    "numpy>=1.24.0",
-    "scipy",
-    "h5py",
-    "pyevtk",
-    "vtk",
-    "sympy",
+    "numpy==1.24.4",
+    "scipy==1.11.4",
+    "h5py==3.10.0",
+    "pyevtk==1.6.0",
+    "vtk==9.3.0",
+    "sympy==1.12",
 ]
 
 [project.optional-dependencies]
 dev = [
-    "pytest",
-    "pylint",
-    "black",
+    "pytest==8.1.1",
+    "pylint==3.1.0",
+    "black==24.3.0",
 ]
 test = [
-    "pytest",
-    "pylint",
+    "pytest==8.1.1",
+    "pylint==3.1.0",
 ]
 
 [project.urls]
