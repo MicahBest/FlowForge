@@ -31,12 +31,12 @@ dependencies = [
 [project.optional-dependencies]
 dev = [
     "pytest==8.2.2",
-    "pylint==3.3.4",
+    "pylint==3.3.6",
     "black==24.3.0",
 ]
 test = [
     "pytest==8.2.2",
-    "pylint==3.3.4",
+    "pylint==3.3.6",
 ]
 
 [project.urls]
