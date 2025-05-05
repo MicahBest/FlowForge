@@ -221,6 +221,7 @@ class BoundaryConditions:
     """
 
     def __init__(self, **boundary_conditions: dict):
+
         bc_objects = {"DirichletBC": DirichletBC}
 
         self.bcs = {}
