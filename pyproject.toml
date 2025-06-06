@@ -22,7 +22,7 @@ classifiers = [
 dependencies = [
     "numpy==2.2.3",
     "scipy==1.15.2",
-    "h5py==3.13.0",
+    "h5py==3.14.0",
     "pyevtk==1.6.0",
     "vtk==9.4.2",
     "sympy==1.13.3",
